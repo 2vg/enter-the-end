@@ -1,0 +1,12 @@
+[package]
+name = "enter-the-end"
+version = "0.1.0"
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+anyhow = "1.0.42"
+rand = "0.8.4"
+utf16_literal = "0.2.1"
+winapi = { version = "0.3.9", features = ["errhandlingapi", "processthreadsapi", "psapi", "securitybaseapi", "winbase", "winerror", "winuser"] }
